@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>team yamada yamazaki wachi watanabe</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="./pacd.css">
+
+</head>
+<body bgcolor="F0FFFF" body background="nihon.png">
+
+<div id="wrapper" >
+  <ul>
+    <li><span class="ball">きょ</span></li>
+    <li><span class="ball">う</span></li>
+    <li><span class="ball">の</span></li>
+    <li><span class="ball">て</span></li>
+    <li><span class="ball">ん</span></li>
+    <li><span class="ball">き</span></li>
+  </ul>
+</div>
+
+
+
+
+
+<link rel="stylesheet" href="./sss.css">
+
+<div id="wrapper">
+  <div id="slideshow">
+    <div class="slideContents">
+      <section id="slide1">
+        <img src="tokyo.png">
+      </section>
+      <section id="slide2">
+        <img src="kanagawa.png">
+      </section>
+      <section id="slide3">
+        <img src="osaka.jpg">
+      </section>
+      <section id="slide4">
+        <img src="http://placehold.it/600x200/fafafa/20b2aa/&text=slide_4">
+      </section>
+      <section id="slide5">
+        <img src="http://placehold.it/600x200/fafafa/20b2aa/&text=slide_5">
+      </section>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+</body>
+</html>
+

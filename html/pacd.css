@@ -1,0 +1,86 @@
+ul {
+  list-style: none;
+  width: calc(360px + 2em);
+  margin: 0 auto;
+  padding: 0;
+}
+ 
+li {
+  margin-bottom: 10px;
+}
+ 
+.ball {
+  display: block;
+  width: 1em;
+  height: 1em;
+  padding: .5em;
+  color: #fff;
+  background: #20b2aa;
+  line-height: 1;
+  text-align: center;
+  border-radius: 50%;
+  /* easeOutExpo */
+  -webkit-animation: 5s cubic-bezier(0.19, 1, 0.22, 1) infinite alternate;
+  animation: 5s cubic-bezier(0.19, 1, 0.22, 1) infinite alternate;
+}
+ 
+li:nth-child(1) .ball {
+  -webkit-animation-name: rolling1;
+  animation-name: rolling1;
+}
+ 
+li:nth-child(2) .ball {
+  -webkit-animation-name: rolling2;
+  animation-name: rolling2;
+}
+ 
+li:nth-child(3) .ball {
+  -webkit-animation-name: rolling3;
+  animation-name: rolling3;
+}
+
+li:nth-child(4) .ball {
+  -webkit-animation-name: rolling1;
+  animation-name: rolling1;
+}
+li:nth-child(5) .ball {
+  -webkit-animation-name: rolling2;
+  animation-name: rolling2;
+}
+li:nth-child(6) .ball {
+  -webkit-animation-name: rolling3;
+  animation-name: rolling3;
+}
+@-webkit-keyframes rolling1 {
+  0% { -webkit-transform: translateX(0) rotate(0deg); }
+  100% { -webkit-transform: translateX(360px) rotate(1440deg); }
+}
+@-webkit-keyframes rolling2 {
+  0% { -webkit-transform: translateX(0) rotate(0deg); }
+  50% { -webkit-transform: translateX(180px) rotate(720deg); }
+  100% { -webkit-transform: translateX(360px) rotate(1440deg); }
+}
+@-webkit-keyframes rolling3 {
+  0% { -webkit-transform: translateX(0) rotate(0deg); }
+  10% { -webkit-transform: translateX(90px) rotate(360deg); }
+  30% { -webkit-transform: translateX(180px) rotate(720deg); }
+  60% { -webkit-transform: translateX(270px) rotate(1080deg); }
+  100% { -webkit-transform: translateX(360px) rotate(1440deg); }
+}
+ 
+@keyframes rolling1 {
+  0% { transform: translateX(0) rotate(0deg); }
+  100% { transform: translateX(360px) rotate(1440deg); }
+}
+@keyframes rolling2 {
+  0% { transform: translateX(0) rotate(0deg); }
+  50% { transform: translateX(180px) rotate(720deg); }
+  100% { transform: translateX(360px) rotate(1440deg); }
+}
+@keyframes rolling3 {
+  0% { transform: translateX(0) rotate(0deg); }
+  10% { transform: translateX(90px) rotate(360deg); }
+  30% { transform: translateX(180px) rotate(720deg); }
+  60% { transform: translateX(270px) rotate(1080deg); }
+  100% { transform: translateX(360px) rotate(1440deg); }
+}
